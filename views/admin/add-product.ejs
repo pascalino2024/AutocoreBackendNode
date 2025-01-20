@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="/css/main.css">
+   
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item"><a href="/admin/index">Menu</a></li>
+                <li class="main-header__item"><a class="active" href="/admin/add-product">Add Product</a></li>
+                <li class="main-header__item"><a class="active" href="/admin/add-product">View Product</a></li>
+                <li class="main-header__item"><a class="active" href="/">Back to Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form class="product-form" action="/admin/add-product" method="POST">
+            <div class="form-control">
+                <label for="title">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-control">
+                <label for="title">SKU</label>
+                <input type="text" name="sku" id="sky">
+            </div>
+            <div class="form-control">
+                <label for="title">brand</label>
+                <input type="text" name="brand" id="sky">
+            </div>
+            
+            <div class="form-control">
+                <label for="title"> Part Number</label>
+                <input type="number" min="10" name="compareAtPrice" id="price">
+            </div>
+
+            <div class="form-control">
+                <label for="title">Image1</label>
+                <input type="file" name="image1" id="image">
+            </div>
+            <div class="form-control">
+                <label for="title">Image2</label>
+                <input type="file" name="image2" id="image">
+            </div>
+            <div class="form-control">
+                <label for="title">Image3</label>
+                <input type="file" name="image3" id="image">
+            </div>
+            <div class="form-control">
+                <label for="title">Price</label>
+                <input type="number" min="10" name="price" id="price">
+            </div>
+        </div>
+        <div class="form-control">
+            <label for="title">Color</label>
+            <input type="text" name="color" id="price">
+        </div>
+
+        <div class="form-control">
+            <label for="title"> Grande Categories</label>
+            <select name="grandecategory" id="cars">
+                <option value="filtres">Filtres</option>
+                <option value="Freinage">Freinage </option>
+                <option value="Bougies">Bougies</option>
+                <option value="Courroies">Courroies</option>
+                <option value="Outils">Outils</option>
+                <option value="batteries">Batteries</option>
+              </select>
+        </div>
+        
+            <div class="form-control">
+                <label for="title">Categories</label>
+                <select name="categories" id="cars">
+                    <option value="jeudeplaquettesdefreinsav">Jeu de Plaquettes de Frein</option>
+                    <option value="filtresaHuile">Filtre A Huile</option>
+                    <option value="filtreaair">Filtre a Air</option>
+                    <option value="bougiesallumage">Bougies</option>
+                    <option value="batteries">Batteries</option>
+                  </select>
+            </div>
+           
+
+            <button type="submit">Add Product</button>
+        </form>
+    </main>
+</body>
+
+</html>

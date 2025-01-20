@@ -1,0 +1,41 @@
+<%- include('../includes/head.ejs') %>
+    <link rel="stylesheet" href="/css/product.css">
+</head>
+
+<body>
+    <%- include('../includes/navigation.ejs') %>
+
+    <main>
+        <h1> Welcome to autocore </h1>
+        <h3> Ligne 1</h3>
+        <% if (prods.length > 0) { %>
+            <div class="grid">
+                <% for (let product of prods) { %>
+                    <article class="card product-item">
+                        <header class="card__header">
+                            <h1 class="product__title"><%= product.name %></h1>
+                        </header>
+                        <div class="card__image">
+                            <img src="https://autocore-tg.com/imagescloud/<%= product.imageurl %>"
+                                alt="A Book">
+                        </div>
+                        <div class="card__content">
+                            <h2 class="product__price">$<%= product.price %></h2>
+                        </div>
+                        <div class="card__actions">
+                            <button class="btn">Add to Cart</button>
+                        </div>
+                        <p> <%= product.description %> </p>
+                    </article>
+                <% } %>
+            </div>
+        <% } else { %>
+            <h1>No Products Found!</h1>
+        <% } %>
+        <h3> Ligne 2</h3>
+       
+        
+        
+      
+    </main>
+<%- include('../includes/end.ejs') %>

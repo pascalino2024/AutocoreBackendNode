@@ -1,0 +1,137 @@
+[
+  {
+    "id": 10,
+    "name": "Decoration pour Volant ",
+    "slug": "decorationvolant",
+    "sku": "123-123",
+    "badges": ["new"],
+    "reviews": 2,
+    "availability": "available",
+    "brand": "toyota",
+    "compareAtPrice": 3500,
+    "images": [
+      "958526542d7cac3465684bea058a5cd6.jpeg",
+      "958526542d7cac3465684bea058a5cd6.jpeg"
+    ],
+    "price": 4500,
+    "attributes": { "color": "red" },
+    "rating": 4,
+    "categories": "volant"
+  },
+  {
+    "id": 8,
+    "name": "Batterie de 12 V 100A",
+    "slug": "batterie12v",
+    "sku": "5869-84",
+    "badges": ["new"],
+    "reviews": 12,
+    "availability": "available",
+    "brand": "Autex",
+    "compareAtPrice": 35000,
+    "images": [
+      "my-11134207-7r98p-loau937tp2k042.jpeg",
+      "my-11134207-7r98p-loau937tp2k042.jpeg"
+    ],
+    "price": 45000,
+    "attributes": { "color": "noir" },
+    "rating": 3,
+    "categories": "batteries"
+  },
+  {
+    "id": 9,
+    "name": "Batterie de 12 V 100A",
+    "slug": "batterie12v",
+    "sku": "5869-84",
+    "badges": ["new"],
+    "reviews": 12,
+    "availability": "available",
+    "brand": "Autex",
+    "compareAtPrice": 35000,
+    "images": [
+      "my-11134207-7r98p-loau937tp2k042.jpeg",
+      "my-11134207-7r98p-loau937tp2k042.jpeg"
+    ],
+    "price": 45000,
+    "attributes": { "color": "noir" },
+    "rating": 3,
+    "categories": "batteries"
+  },
+  {
+    "name": "Batterie Bosh 12V 3.5ah",
+    "slug": "batteriebosh12v3.5ah",
+    "sku": "RBTZ-5S",
+    "badges": ["new"],
+    "reviews": 5,
+    "availability": "available",
+    "brand": "bosh",
+    "compareAtPrice": 65000,
+    "images": [
+      "my-11134207-7r98q-lv2ppdroonqwbc.jpg",
+      "my-11134207-7r98q-lv2ppdroonqwbc.jpg"
+    ],
+    "price": 70000,
+    "attributes": { "color": "yellow" },
+    "rating": 5,
+    "categories": "batteries"
+  },
+  {
+    "name": "Filtre a filtre Huile",
+    "slug": "filtreahuile90915-TD004",
+    "sku": "90915-TD004",
+    "badges": ["new"],
+    "reviews": 2,
+    "availability": "available",
+    "brand": "TOYOTA",
+    "compareAtPrice": 70000,
+    "images": ["90915-TD004-7.jpg", "90915-TD004-7.jpg"],
+    "price": 65000,
+    "attributes": { "color": "black" },
+    "rating": 4,
+    "categories": "filtresaHuile"
+  },
+  {
+    "name": "Filtre a filtre Huile",
+    "slug": "filtreahuile90915-10004",
+    "sku": "90915-10004",
+    "badges": ["new"],
+    "reviews": 2,
+    "availability": "available",
+    "brand": "TOYOTA",
+    "compareAtPrice": 70000,
+    "images": ["photo16867360125.jpeg", "photo16867360125.jpeg"],
+    "price": 65000,
+    "attributes": { "color": "black" },
+    "rating": 4,
+    "categories": "filtresaHuile"
+  },
+  {
+    "name": "Filtre a filtre Huile",
+    "slug": "filtreahuile90915-20004",
+    "sku": "90915-20004",
+    "badges": ["new"],
+    "reviews": 2,
+    "availability": "available",
+    "brand": "TOYOTA",
+    "compareAtPrice": 70000,
+    "images": ["photo_5782761843444530191_y.jpg", "photo_5782761843444530191_y.jpg"],
+    "price": 65000,
+    "attributes": { "color": "black" },
+    "rating": 4,
+    "categories": "filtresaHuile"
+  },
+  {
+    "name": "Couroie V",
+    "slug": "courroieV90916-T2020",
+    "sku": "90916-T2020",
+    "badges": ["new"],
+    "reviews": 2,
+    "availability": "available",
+    "brand": "TOYOTA",
+    "compareAtPrice": 70000,
+    "images": ["photo1686734650.jpeg", "photo1686734650.jpeg"],
+    "price": 65000,
+    "attributes": { "color": "black" },
+    "rating": 4,
+    "categories": "courroiesaccessoires"
+  }
+]
