@@ -93,6 +93,11 @@ router.get('/api/Orders',(req , res , next ) => {
 
 })
 
+router.get('/',(req , res , next ) => {
+  
+  res.write("<h1>Welcome to Autocore Togo</h1>")
+})
+
 router.use('/api/Order/:orderId',(req , res , next ) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Headers','*');
